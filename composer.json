@@ -1,0 +1,24 @@
+{
+    "name": "properos/cms",
+    "description": "CMS package",
+    "authors": [
+        {
+            "name": "Properos LLC",
+            "email": "info@properos.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Properos\\Cms\\CmsServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Properos\\Cms\\": "src/"
+        }
+    }
+}
