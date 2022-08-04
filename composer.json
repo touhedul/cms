@@ -1,5 +1,6 @@
 {
     "name": "touhedul/cms",
+    "license": "MIT",
     "description": "CMS package",
     "authors": [
         {
